@@ -1,7 +1,7 @@
 [project]
 name = "limlib"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.1"
+description = "Fast library for rendering 2D graphics with optimizations for tens and hundreds of thousands of objects in a frame in Python, running on top of OpenGL (ModernGL)Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

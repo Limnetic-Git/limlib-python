@@ -135,7 +135,7 @@ def LoadTexture(path: str, filter_mode: str = 'NEAREST') -> moderngl.Texture:
 def DrawSprite(
     texture: moderngl.Texture,
     x: float, y: float,
-    width: float = 0.3, height: float = 0.3,
+    width: float = 1.0, height: float = 1.0,
     rotation: float = 0.0,
     tint: Color = WHITE) -> None:
 

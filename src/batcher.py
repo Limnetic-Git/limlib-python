@@ -1,10 +1,8 @@
 import numpy as np
 
 
-MAX_SPRITES_IN_BATCH = 1_000_000
-
 class SpriteBatcher:
-    def __init__(self, max_sprites=MAX_SPRITES_IN_BATCH):
+    def __init__(self, max_sprites=100_000):
         self.data = np.zeros(max_sprites, dtype=[
             ('offset_x', 'f4'), ('offset_y', 'f4'),
             ('size_w', 'f4'), ('size_h', 'f4'),
